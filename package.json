@@ -1,0 +1,23 @@
+{
+  "name": "data-structured-linked-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hassanabdelqader/Data-Structured-Linked-List.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hassanabdelqader/Data-Structured-Linked-List/issues"
+  },
+  "homepage": "https://github.com/Hassanabdelqader/Data-Structured-Linked-List#readme",
+  "dependencies": {
+    "jest": "^29.0.2"
+  }
+}
