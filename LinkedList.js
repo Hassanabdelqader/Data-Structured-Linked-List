@@ -9,7 +9,7 @@ class LinkedList {
   }
 
 
-  // Add At the begin Function
+  // Add At the begin Function Branch
   addBeginning(value) {
     const node = new Node(value);
     if (this.length === 0) {
@@ -22,7 +22,7 @@ class LinkedList {
     }
   }
 
-  // Add Value to specific Location
+  // Add Value to specific Location branch
   addAt(value,index) {
     const node = new Node(value);
     if (this.length === 0) {
@@ -50,7 +50,7 @@ class LinkedList {
     }
   }
   
-  // Deleting at the middle
+  // Deleting at the middle Branch
   deleteMid() {
     if (this.length === 0) {
       this.head = null;
