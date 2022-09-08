@@ -12,6 +12,8 @@ linkedlist.addBeginning('2')
 linkedlist.addBeginning('1')
 linkedlist.addBeginning('0')
 
+
+
 linkedlist.addEnd('7')
 linkedlist.addEnd('8')
 linkedlist.addEnd('9')
@@ -20,15 +22,18 @@ linkedlist.addEnd('11')
 linkedlist.addEnd('12')
 linkedlist.addEnd('13')
 linkedlist.addEnd('14')
+
+console.log('***********************************************************')
+linkedlist.showList()
+
+linkedlist.deleteMid()
+
 linkedlist.addAt('added at 5',5)
 linkedlist.addAt('added at 10',10)
 
 console.log('***********************************************************')
 linkedlist.showList()
-console.log('***********************************************************')
-
-// linkedlist.deleteMid()
 
 
-linkedlist.showList()
+
 
