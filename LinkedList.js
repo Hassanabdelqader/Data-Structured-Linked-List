@@ -9,7 +9,7 @@ class LinkedList {
   }
 
 
-  // Add At the begin Function
+  // Add At the begin Function Branch
   addBeginning(value) {
     const node = new Node(value);
     if (this.length === 0) {
