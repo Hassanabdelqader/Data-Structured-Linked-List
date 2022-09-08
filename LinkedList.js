@@ -50,7 +50,7 @@ class LinkedList {
     }
   }
   
-  // Deleting at the middle
+  // Deleting at the middle Branch
   deleteMid() {
     if (this.length === 0) {
       this.head = null;
