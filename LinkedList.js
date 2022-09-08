@@ -75,7 +75,7 @@ class LinkedList {
 }
 
 
-  // Add at the Endd
+  // Add at the Endd Branch
   addEnd(value) {
     const node = new Node(value);
     if (this.length === 0) {
