@@ -8,6 +8,8 @@ class LinkedList {
     this.length = 0;
   }
 
+
+  // Add At the begin Function
   addBeginning(value) {
     const node = new Node(value);
     if (this.length === 0) {
