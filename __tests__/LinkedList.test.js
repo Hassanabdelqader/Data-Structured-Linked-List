@@ -21,6 +21,7 @@ describe('Linked List ',()=>{
         expect(ll).toBeInstanceOf(linkedlist)
         expect(ll.head.value).toEqual('item1')
         expect(ll.head.next.next.next).toBeNull()
+        expect(ll.head.next.next.value).toEqual('item3')
         expect(ll.length).toBe(3)
     })
 
@@ -32,7 +33,7 @@ describe('Linked List ',()=>{
         
         ll.addAt('mid',1)
        
-        expect(ll.length).toBe(3)
+        expect(ll.length).toBe(4)
         expect(ll).toBeInstanceOf(linkedlist)
         expect(ll.head.next.value).toEqual('mid')
         expect(ll.head.next.next.next.next).toBeNull()

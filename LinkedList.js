@@ -41,6 +41,7 @@ class LinkedList {
                 if (count === index-1) {
                      node.next = current.next;
                      current.next = node;
+                     this.length++;
                      break;
                 }
                 current = current.next
